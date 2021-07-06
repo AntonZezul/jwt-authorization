@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.wrap-login {
+    width: 960px;
+    height: 450px;
+    margin: 0 10px 0 10px;
+    padding: 60px 0 60px 0;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: end;
+}

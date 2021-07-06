@@ -1,0 +1,16 @@
+.container-activate {
+    width: 100%;
+    padding: 7px 0 7px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, .3);
+}
+
+.activate-span {
+    font-size: 17px;
+    font-weight: 600;
+}

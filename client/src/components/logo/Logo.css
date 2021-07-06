@@ -1,0 +1,26 @@
+.logo-pic {
+    width: 316px;
+    padding-left: 10px;
+    display: block;
+}
+
+.logo-thumb {
+    transform:
+        perspective(800px) rotateY(25deg) scale(0.9) rotateX(10deg);
+    filter: blur(1px);
+    opacity: 0.8;
+    transition: 0.6s ease all;
+}
+
+.logo-thumb:hover {
+    transform:
+        perspective(800px) rotateY(-15deg) rotateX(10deg) scale(1);
+    filter: blur(0);
+    opacity: 1;
+}
+
+@media screen and (max-width: 656px) {
+    .logo-pic {
+        display: none;
+    }
+}
